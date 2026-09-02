@@ -46,7 +46,7 @@
             <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 pb-5 border-b border-border-muted">
                 <div class="flex items-center gap-3">
                     @if(!empty($settings->logo))
-                        <img src="{{ asset('storage/app/public/'.$settings->logo) }}" alt="{{ $settings->site_name ?? '' }}" class="h-10 w-auto">
+                        <img src="{{ asset('storage/'.$settings->logo) }}" alt="{{ $settings->site_name ?? '' }}" class="h-10 w-auto">
                     @endif
                     <div>
                         <p class="text-base font-heading font-semibold text-content">{{ $settings->site_name ?? config('app.name') }}</p>

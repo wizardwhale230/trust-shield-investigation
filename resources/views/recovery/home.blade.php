@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="hidden lg:block">
-                    <img src="{{ asset('public/assets/images/wealth-recovery-homepage-hero.jpg') }}" alt="{{ $settings->site_name  }} - Fraud Recovery Experts" class="w-full rounded-lg" loading="eager">
+                    <img src="{{ asset('assets/images/wealth-recovery-homepage-hero.jpg') }}" alt="{{ $settings->site_name  }} - Fraud Recovery Experts" class="w-full rounded-lg" loading="eager">
                 </div>
             </div>
         </div>
@@ -40,10 +40,10 @@
     <section class="border-b border-border-muted">
         <div class="section-container py-10">
             <div class="flex flex-wrap items-center justify-center gap-8 md:gap-14 opacity-40">
-                <img src="{{ asset('public/assets/images/press_the_times.webp') }}" alt="The Times" class="h-6 md:h-8 object-contain grayscale">
-                <img src="{{ asset('public/assets/images/press_the_law_society.webp') }}" alt="The Law Society Gazette" class="h-6 md:h-8 object-contain grayscale">
-                <img src="{{ asset('public/assets/images/press_chesire_magazine.webp') }}" alt="Cheshire Magazine" class="h-6 md:h-8 object-contain grayscale">
-                <img src="{{ asset('public/assets/images/press_guardian.webp') }}" alt="The Guardian" class="h-6 md:h-8 object-contain grayscale">
+                <img src="{{ asset('assets/images/press_the_times.webp') }}" alt="The Times" class="h-6 md:h-8 object-contain grayscale">
+                <img src="{{ asset('assets/images/press_the_law_society.webp') }}" alt="The Law Society Gazette" class="h-6 md:h-8 object-contain grayscale">
+                <img src="{{ asset('assets/images/press_chesire_magazine.webp') }}" alt="Cheshire Magazine" class="h-6 md:h-8 object-contain grayscale">
+                <img src="{{ asset('assets/images/press_guardian.webp') }}" alt="The Guardian" class="h-6 md:h-8 object-contain grayscale">
             </div>
         </div>
     </section>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="" name="author">
     <!-- Theme CSS -->
-    <meta property="og:image" content="{{ asset('storage/app/public/' . $settings->logo) }} ">
+    <meta property="og:image" content="{{ asset('storage/' . $settings->logo) }} ">
     <link rel="stylesheet" href="{{ asset('themes/dashly/assets/css/theme.bundle.css') }}" id="stylesheetLTR">
     <link rel="stylesheet" href="{{ asset('themes/dashly/assets/css/theme.rtl.bundle.css') }}" id="stylesheetRTL">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -95,7 +95,7 @@
         }
     </script>
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('storage/app/public/' . $settings->favicon) }}" sizes="any">
+    <link rel="icon" href="{{ asset('storage/' . $settings->favicon) }}" sizes="any">
 
     <!-- Demo script -->
     <script>

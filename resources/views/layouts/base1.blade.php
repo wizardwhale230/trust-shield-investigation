@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="{{ asset('storage/app/public/' . $settings->logo) }}">
+    <meta property="og:image" content="{{ asset('storage/' . $settings->logo) }}">
     <meta name="description" content="{{$settings->site_name}} is one of the world's leading forex,stock and crypto trading platform ">
     
 
@@ -17,7 +17,7 @@
     <title>{{$settings->site_name}} is one of the world's leading forex,stock and crypto trading platform </title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="{{ asset('storage/app/public/photos/'.$settings->favicon)}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('storage/photos/'.$settings->favicon)}}" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="temp/front/assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -264,8 +264,8 @@ var listCountries = ['United Kingdom', 'USA', 'Germany', 'France', 'Italy', 'USA
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="/">
-                        <img src="{{ asset('storage/app/public/' . $settings->logo) }}" class="logo logo-display" class="w-50" alt="Logo" width="250" height="600">
-                        <img src="{{ asset('storage/app/public/' . $settings->logo) }}" class="logo logo-scrolled" class="w-50" alt="Logo" width="250" height="600">
+                        <img src="{{ asset('storage/' . $settings->logo) }}" class="logo logo-display" class="w-50" alt="Logo" width="250" height="600">
+                        <img src="{{ asset('storage/' . $settings->logo) }}" class="logo logo-scrolled" class="w-50" alt="Logo" width="250" height="600">
                     </a>
                 </div>
                 <!-- End Header Navigation -->

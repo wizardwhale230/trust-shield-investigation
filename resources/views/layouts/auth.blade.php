@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title') | {{ $settings->site_name ?? 'Account' }}</title>
     @if($settings->favicon ?? false)
-        <link rel="icon" href="{{ asset('storage/app/public/'.$settings->favicon) }}" sizes="any">
+        <link rel="icon" href="{{ asset('storage/'.$settings->favicon) }}" sizes="any">
     @endif
 
     <!-- Tailwind CSS CDN -->
@@ -131,7 +131,7 @@
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
             <div class="flex items-center h-14">
                 <a href="/" class="flex-shrink-0">
-                    <img src="{{ asset('storage/app/public/'.$settings->logo) }}" alt="{{ $settings->site_name ?? '' }}" class="h-8 w-auto">
+                    <img src="{{ asset('storage/'.$settings->logo) }}" alt="{{ $settings->site_name ?? '' }}" class="h-8 w-auto">
                 </a>
             </div>
         </div>

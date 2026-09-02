@@ -7,7 +7,7 @@
     <title>@yield('title', ($settings->site_name ?? 'Verfins') . ' Solicitors')</title>
     <meta name="description" content="@yield('description', $settings->description ?? 'Our team of investment fraud lawyers have a proven track record of recovering assets for victims of investment fraud.')">
     <meta name="robots" content="max-image-preview:large">
-    @if($settings->favicon)<link rel="icon" href="{{ asset('storage/app/public/'.$settings->favicon) }}" type="image/x-icon">@endif
+    @if($settings->favicon)<link rel="icon" href="{{ asset('storage/'.$settings->favicon) }}" type="image/x-icon">@endif
 
     <!-- Open Graph -->
     <meta property="og:title" content="@yield('title', ($settings->site_name ?? 'Verfins') . ' Solicitors')">
@@ -138,7 +138,7 @@
         "@type": "Organization",
         "name": "{{ $settings->site_name  }}",
         "url": "{{ url('/') }}",
-        "logo": "{{ asset('storage/app/public/'.$settings->logo) }}",
+        "logo": "{{ asset('storage/'.$settings->logo) }}",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "{{ $settings->office_phone ?? '' }}",
@@ -171,7 +171,7 @@
         <div class="section-container">
             <div class="flex items-center justify-between h-16 md:h-18">
                 <a href="{{ route('recovery.home') }}" class="flex-shrink-0">
-                    <img src="{{ asset('storage/app/public/'.$settings->logo) }}" alt="{{ $settings->site_name  }}" class="h-10 w-auto">
+                    <img src="{{ asset('storage/'.$settings->logo) }}" alt="{{ $settings->site_name  }}" class="h-10 w-auto">
                 </a>
 
                 {{-- Desktop Navigation --}}
@@ -276,7 +276,7 @@
         <div class="section-container py-16">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
                 <div class="lg:col-span-1">
-                    <img src="{{ asset('storage/app/public/'.$settings->logo) }}" alt="{{ $settings->site_name  }}" class="h-10 w-auto mb-4">
+                    <img src="{{ asset('storage/'.$settings->logo) }}" alt="{{ $settings->site_name  }}" class="h-10 w-auto mb-4">
                     <p class="text-sm text-content-tertiary leading-relaxed mb-6">{{ $settings->site_name  }} is a platform that recovers stolen funds. We provide free consultations to help you get started.</p>
                     <div class="flex items-center gap-3">
                         <a href="#" class="p-2 text-content-tertiary hover:text-content-inverse rounded-md transition-colors" aria-label="Facebook"><i data-lucide="message-circle" class="w-4 h-4"></i></a>

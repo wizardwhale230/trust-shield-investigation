@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title') | {{ $settings->site_name ?? 'Recovery' }}</title>
     @if($settings->favicon ?? false)
-        <link rel="icon" href="{{ asset('storage/app/public/'.$settings->favicon) }}" sizes="any">
+        <link rel="icon" href="{{ asset('storage/'.$settings->favicon) }}" sizes="any">
     @endif
 
     <!-- Tailwind CSS CDN -->
@@ -154,7 +154,7 @@
         {{-- Logo --}}
         <div class="flex items-center h-14 px-5 border-b border-border-muted flex-shrink-0">
             <a href="{{ route('dashboard') }}" class="flex-shrink-0">
-                <img src="{{ asset('storage/app/public/'.$settings->logo) }}" alt="{{ $settings->site_name ?? '' }}" class="h-7 w-auto">
+                <img src="{{ asset('storage/'.$settings->logo) }}" alt="{{ $settings->site_name ?? '' }}" class="h-7 w-auto">
             </a>
             <button @click="sidebarOpen = false" class="ml-auto lg:hidden text-content-tertiary hover:text-content">
                 <i data-lucide="x" class="w-5 h-5"></i>

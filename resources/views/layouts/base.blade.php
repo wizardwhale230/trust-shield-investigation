@@ -38,7 +38,7 @@
     
     <!--favicon  -->
     
-    <link rel="shortcut icon" href="{{ asset('storage/app/public/'.$settings->favicon)}}" type=image/x-icon >
+    <link rel="shortcut icon" href="{{ asset('storage/'.$settings->favicon)}}" type=image/x-icon >
     <link rel="stylesheet" type=text/css href="temp/custom/css/third-patry.css" >
     <link rel="stylesheet" type=text/css href="temp/custom/css/app8e96.css" >
     
@@ -100,7 +100,7 @@
      <!-- logo and full top bar -->
     
     
-    <section style="background-color:#000;" class="topbar" id="topbar"><div class="container"><div class="topbar__items d-flex align-center space-between"><div class="d-inline-block"><a title="main page" class="d-inline-block brand-sm hidden-lg flex-shrink-1 mr-1" href="/"><img class="logo img-responsive" width=130 src="{{ asset('storage/app/public/'.$settings->logo)}}" alt="{{$settings->site_name}}" ></a></div> 
+    <section style="background-color:#000;" class="topbar" id="topbar"><div class="container"><div class="topbar__items d-flex align-center space-between"><div class="d-inline-block"><a title="main page" class="d-inline-block brand-sm hidden-lg flex-shrink-1 mr-1" href="/"><img class="logo img-responsive" width=130 src="{{ asset('storage/'.$settings->logo)}}" alt="{{$settings->site_name}}" ></a></div> 
     
     
     
@@ -292,7 +292,7 @@
     <!-- menu  and logo-->
     
     <nav class="menu visible-lg" id="desktopMenu"><div class="container"><div class="d-flex align-center space-between position-relative">
-    <a title="LOGO" class="navbar-brand p-0 flex-shrink-0" href="/"><img class="logo" src="{{ asset('storage/app/public/'.$settings->logo)}}" alt="LOGO" ></a>
+    <a title="LOGO" class="navbar-brand p-0 flex-shrink-0" href="/"><img class="logo" src="{{ asset('storage/'.$settings->logo)}}" alt="LOGO" ></a>
     <div class="menu-items flex-shrink-0"><ul class="m-0"><li><a data-target=".cfd" id="cfd" class="fw-400" title="Trading" href="#">Trading</a></li>
     <li><a data-target=".platform" id="platform" class="fw-400" title="Platform" href="#">System</a></li>
     <li><a data-target=".about-us" id="about-us" class="fw-400" title="about" href="about">Company</a></li>
@@ -522,7 +522,7 @@
         <!-- FOOTERMENU -->
         
         
-        <div style="background-color:#000; color:#c6c6c6" class="pt-4 pb-4"><div class="container"><div class="text-left mb-3"><a class="d-inline-block" title="main page" href="/"><img class="img-responsive" src="{{ asset('storage/app/public/'.$settings->logo)}}" alt="Logo" width=172></a></div>
+        <div style="background-color:#000; color:#c6c6c6" class="pt-4 pb-4"><div class="container"><div class="text-left mb-3"><a class="d-inline-block" title="main page" href="/"><img class="img-responsive" src="{{ asset('storage/'.$settings->logo)}}" alt="Logo" width=172></a></div>
         
         
         

@@ -109,7 +109,7 @@
                         100px.)</h5>
                     <input name="logo" class="form-control " type="file">
                     <div class="text-center border p-2 mt-2 rounded-none">
-                        <img src="{{ asset('storage/app/public/' . $settings->logo) }}" alt=""
+                        <img src="{{ asset('storage/' . $settings->logo) }}" alt=""
                             class="w-25 img-fluid">
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                         height 32px.)</h5>
                     <input name="favicon" class="form-control " type="file">
                     <div class="text-center border p-2 mt-2 rounded-none">
-                        <img src="{{ asset('storage/app/public/' . $settings->favicon) }}" alt=""
+                        <img src="{{ asset('storage/' . $settings->favicon) }}" alt=""
                             class="w-25 img-fluid">
                     </div>
                 </div>
