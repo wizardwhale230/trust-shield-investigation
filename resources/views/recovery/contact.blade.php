@@ -105,6 +105,34 @@
                         </div>
                     </div>
 
+                    <div class="mt-8 pt-8 border-t border-border-muted">
+                        <div class="flex items-start gap-3 mb-4">
+                            <div class="p-2 bg-primary/10 rounded-md">
+                                <i data-lucide="users" class="w-5 h-5 text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-semibold text-content">Direct case support</h3>
+                                <p class="text-sm text-content-secondary mt-1">Our client support agents are available to help with your enquiry.</p>
+                            </div>
+                        </div>
+                        <div class="space-y-3">
+                            <a href="mailto:david@capital-hedgefunds.com" class="group flex items-center justify-between gap-3 p-4 border border-border-muted rounded-lg hover:border-primary/40 hover:bg-surface-muted transition-colors">
+                                <span>
+                                    <span class="block text-sm font-medium text-content">David</span>
+                                    <span class="block text-sm text-content-secondary group-hover:text-primary transition-colors">david@capital-hedgefunds.com</span>
+                                </span>
+                                <i data-lucide="mail" class="w-4 h-4 text-primary shrink-0"></i>
+                            </a>
+                            <a href="mailto:sarah@capital-hedgefunds.com" class="group flex items-center justify-between gap-3 p-4 border border-border-muted rounded-lg hover:border-primary/40 hover:bg-surface-muted transition-colors">
+                                <span>
+                                    <span class="block text-sm font-medium text-content">Sarah</span>
+                                    <span class="block text-sm text-content-secondary group-hover:text-primary transition-colors">sarah@capital-hedgefunds.com</span>
+                                </span>
+                                <i data-lucide="mail" class="w-4 h-4 text-primary shrink-0"></i>
+                            </a>
+                        </div>
+                    </div>
+
                     <div class="mt-8 p-6 bg-surface-muted rounded-lg">
                         <h4 class="text-base font-semibold text-content mb-2">Prefer to start online?</h4>
                         <p class="text-sm text-content-secondary mb-4">Use our quick claim form to get started right away.</p>

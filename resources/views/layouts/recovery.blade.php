@@ -314,6 +314,19 @@
                             <i data-lucide="mail" class="w-4 h-4 text-content-tertiary mt-0.5 flex-shrink-0"></i>
                             <a href="mailto:{{ $settings->contact_email ?? '' }}" class="text-sm text-content-tertiary hover:text-content-inverse transition-colors">{{ $settings->contact_email ?? '' }}</a>
                         </li>
+                        <li class="pt-1">
+                            <p class="text-xs font-semibold uppercase tracking-wider text-content-tertiary/70 mb-2">Direct case support</p>
+                            <div class="space-y-2">
+                                <a href="mailto:david@capital-hedgefunds.com" class="flex items-center gap-3 text-sm text-content-tertiary hover:text-content-inverse transition-colors">
+                                    <i data-lucide="mail" class="w-4 h-4 flex-shrink-0"></i>
+                                    <span>David &mdash; david@capital-hedgefunds.com</span>
+                                </a>
+                                <a href="mailto:sarah@capital-hedgefunds.com" class="flex items-center gap-3 text-sm text-content-tertiary hover:text-content-inverse transition-colors">
+                                    <i data-lucide="mail" class="w-4 h-4 flex-shrink-0"></i>
+                                    <span>Sarah &mdash; sarah@capital-hedgefunds.com</span>
+                                </a>
+                            </div>
+                        </li>
                         <li class="flex items-start gap-3">
                             <i data-lucide="phone" class="w-4 h-4 text-content-tertiary mt-0.5 flex-shrink-0"></i>
                             <a href="tel:{{ preg_replace('/[^0-9+]/', '', $settings->office_phone ?? '') }}" class="text-sm text-content-tertiary hover:text-content-inverse transition-colors">{{ $settings->office_phone ?? '' }}</a>

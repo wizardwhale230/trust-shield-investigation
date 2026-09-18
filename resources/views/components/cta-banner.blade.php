@@ -14,6 +14,12 @@
                 <a href="{{ $url }}" class="btn-primary">{{ $button }}</a>
                 <a href="{{ route('recovery.contact') }}" class="{{ $dark ? 'btn-ghost text-content-inverse border border-content-tertiary/30 hover:bg-content-inverse/10' : 'btn-secondary' }}">Contact Us</a>
             </div>
+            <p class="mt-5 text-sm {{ $dark ? 'text-content-tertiary' : 'text-content-secondary' }}">
+                Prefer to speak with an agent?
+                <a href="mailto:david@capital-hedgefunds.com" class="font-medium hover:underline {{ $dark ? 'text-content-inverse' : 'text-primary' }}">Email David</a>
+                <span aria-hidden="true">or</span>
+                <a href="mailto:sarah@capital-hedgefunds.com" class="font-medium hover:underline {{ $dark ? 'text-content-inverse' : 'text-primary' }}">Sarah</a>.
+            </p>
         </div>
     </div>
 </section>
