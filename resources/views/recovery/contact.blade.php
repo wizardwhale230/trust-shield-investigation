@@ -130,6 +130,13 @@
                                 </span>
                                 <i data-lucide="mail" class="w-4 h-4 text-primary shrink-0"></i>
                             </a>
+                            <a href="mailto:kevin@capital-hedgefunds.com" class="group flex items-center justify-between gap-3 p-4 border border-border-muted rounded-lg hover:border-primary/40 hover:bg-surface-muted transition-colors">
+                                <span>
+                                    <span class="block text-sm font-medium text-content">Kevin</span>
+                                    <span class="block text-sm text-content-secondary group-hover:text-primary transition-colors">kevin@capital-hedgefunds.com</span>
+                                </span>
+                                <i data-lucide="mail" class="w-4 h-4 text-primary shrink-0"></i>
+                            </a>
                         </div>
                     </div>
 

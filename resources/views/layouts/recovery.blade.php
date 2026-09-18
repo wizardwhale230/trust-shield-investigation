@@ -325,6 +325,10 @@
                                     <i data-lucide="mail" class="w-4 h-4 flex-shrink-0"></i>
                                     <span>Sarah &mdash; sarah@capital-hedgefunds.com</span>
                                 </a>
+                                <a href="mailto:kevin@capital-hedgefunds.com" class="flex items-center gap-3 text-sm text-content-tertiary hover:text-content-inverse transition-colors">
+                                    <i data-lucide="mail" class="w-4 h-4 flex-shrink-0"></i>
+                                    <span>Kevin &mdash; kevin@capital-hedgefunds.com</span>
+                                </a>
                             </div>
                         </li>
                         <li class="flex items-start gap-3">

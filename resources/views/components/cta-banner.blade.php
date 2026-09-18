@@ -17,8 +17,10 @@
             <p class="mt-5 text-sm {{ $dark ? 'text-content-tertiary' : 'text-content-secondary' }}">
                 Prefer to speak with an agent?
                 <a href="mailto:david@capital-hedgefunds.com" class="font-medium hover:underline {{ $dark ? 'text-content-inverse' : 'text-primary' }}">Email David</a>
-                <span aria-hidden="true">or</span>
-                <a href="mailto:sarah@capital-hedgefunds.com" class="font-medium hover:underline {{ $dark ? 'text-content-inverse' : 'text-primary' }}">Sarah</a>.
+                <span aria-hidden="true">,</span>
+                <a href="mailto:sarah@capital-hedgefunds.com" class="font-medium hover:underline {{ $dark ? 'text-content-inverse' : 'text-primary' }}">Sarah</a>
+                <span aria-hidden="true">, or</span>
+                <a href="mailto:kevin@capital-hedgefunds.com" class="font-medium hover:underline {{ $dark ? 'text-content-inverse' : 'text-primary' }}">Kevin</a>.
             </p>
         </div>
     </div>
